@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0CA50027-8197-4484-931C-8FFC7044CD46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmarksManager", "src\BookmarksManager\BookmarksManager.csproj", "{6FC6D170-368C-407B-B7F0-A2C8A7B638DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ECB63EBA-7DDE-4439-95D3-D56B69A17EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmarksManager.Tests", "tests\BookmarksManager.Tests\BookmarksManager.Tests.csproj", "{B56EBFBC-3BBB-45FC-8C8C-77BC299482C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FC6D170-368C-407B-B7F0-A2C8A7B638DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC6D170-368C-407B-B7F0-A2C8A7B638DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC6D170-368C-407B-B7F0-A2C8A7B638DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC6D170-368C-407B-B7F0-A2C8A7B638DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56EBFBC-3BBB-45FC-8C8C-77BC299482C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56EBFBC-3BBB-45FC-8C8C-77BC299482C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56EBFBC-3BBB-45FC-8C8C-77BC299482C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56EBFBC-3BBB-45FC-8C8C-77BC299482C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FC6D170-368C-407B-B7F0-A2C8A7B638DF} = {0CA50027-8197-4484-931C-8FFC7044CD46}
+		{B56EBFBC-3BBB-45FC-8C8C-77BC299482C8} = {ECB63EBA-7DDE-4439-95D3-D56B69A17EA5}
+	EndGlobalSection
+EndGlobal

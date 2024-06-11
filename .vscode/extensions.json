@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "ms-ceintl.vscode-language-pack-ja",
+        "ms-vscode-remote.remote-containers",
+        "ms-vsliveshare.vsliveshare",
+        "ms-azuretools.vscode-docker",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "donjayamanne.githistory",
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "kreativ-software.csharpextensions",
+        "formulahendry.dotnet-test-explorer",
+        "adrianwilczynski.namespace",
+        "k--kato.docomment",
+    ]
+}

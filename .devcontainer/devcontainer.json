@@ -6,10 +6,32 @@
     "service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	"features": {
-		"ghcr.io/devcontainers/features/dotnet:2": {
-			"version": "latest"
-		}
-	}
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/devcontainers/features/dotnet:2": {},
+		"ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {},
+		"ghcr.io/robbert229/devcontainer-features/postgresql-client:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vsliveshare.vsliveshare",
+                "mhutchie.git-graph",
+                "eamodio.gitlens",
+                "donjayamanne.githistory",
+                "ms-azuretools.vscode-docker",
+                "formulahendry.code-runner",
+                "ms-dotnettools.csharp",
+                "ms-dotnettools.csdevkit",
+                "kreativ-software.csharpextensions",
+                "k--kato.docomment",
+                "adrianwilczynski.namespace",
+                "formulahendry.dotnet-test-explorer",
+                "ms-dotnettools.vscodeintellicode-csharp",
+                "jorgeserrano.vscode-csharp-snippets",
+                "fireside21.cshtml"
+            ]
+        }
+    }
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

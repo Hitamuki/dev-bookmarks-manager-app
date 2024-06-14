@@ -74,3 +74,13 @@
 - 開発用のコンテナを起動する
   - 拡張機能「Dev Containers」を有効にする
   - VSCodeの左下のアイコンをクリック→「コンテナーで再度開く」を選択
+  - (\*)「Dev Containers」の設定を変更した場合
+    - dockerのvolumeを削除する
+- PostgreSQLコンテナに接続
+
+```bash
+  docker compose up -d
+  # psqlで操作する場合
+  docker exec -it postgres_container psql -U admin -d main_db
+  docker exec -it postgres_container psql -U admin -d log_db
+```

@@ -26,22 +26,24 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-vsliveshare.vsliveshare",
-                "mhutchie.git-graph",
-                "eamodio.gitlens",
-                "donjayamanne.githistory",
-                "ms-azuretools.vscode-docker",
-                "formulahendry.code-runner",
-                "ms-dotnettools.csharp",
-                "ms-dotnettools.csdevkit",
-                "kreativ-software.csharpextensions",
-                "k--kato.docomment",
-                "adrianwilczynski.namespace",
-                "formulahendry.dotnet-test-explorer",
-                "ms-dotnettools.vscodeintellicode-csharp",
-                "jorgeserrano.vscode-csharp-snippets",
-                "fireside21.cshtml"
-            ]
+				"ms-vsliveshare.vsliveshare",
+				"formulahendry.code-runner",
+				"mrmlnc.vscode-duplicate",
+				"nemesv.copy-file-name",
+				"mhutchie.git-graph",
+				"eamodio.gitlens",
+				"donjayamanne.githistory",
+				"ms-azuretools.vscode-docker",
+				"ms-dotnettools.csharp",
+				"ms-dotnettools.csdevkit",
+				"kreativ-software.csharpextensions",
+				"k--kato.docomment",
+				"adrianwilczynski.namespace",
+				"formulahendry.dotnet-test-explorer",
+				"ms-dotnettools.vscodeintellicode-csharp",
+				"jorgeserrano.vscode-csharp-snippets",
+				"fireside21.cshtml"
+			]
         }
     }
 

@@ -88,6 +88,5 @@
 ```bash
   docker compose up -d
   # psqlで操作する場合
-  docker exec -it postgres_container psql -U admin -d main_db
-  docker exec -it postgres_container psql -U admin -d log_db
+  docker exec -it bookmarks_manager_container psql -U admin -d bookmarks_manager
 ```

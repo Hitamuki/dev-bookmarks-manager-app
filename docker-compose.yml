@@ -1,9 +1,7 @@
-version: '3.8'
-
 services:
   db:
     image: postgres:16
-    container_name: postgres_container
+    container_name: bookmarks_manager_container
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: password

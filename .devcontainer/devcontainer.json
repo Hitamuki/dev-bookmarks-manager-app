@@ -23,17 +23,27 @@
 			"version": "15"
 		}
 	},
-    "customizations": {
-        "vscode": {
-            "extensions": [
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"MS-CEINTL.vscode-language-pack-ja",
+				"vscode-icons-team.vscode-icons",
+				"GitHub.github-vscode-theme",
+				"usernamehw.errorlens",
+				"streetsidesoftware.code-spell-checker",
+				"EditorConfig.EditorConfig",
 				"ms-vsliveshare.vsliveshare",
-				"formulahendry.code-runner",
+				"Gruntfuggly.todo-tree",
+				"wayou.vscode-todo-highlight",
 				"mrmlnc.vscode-duplicate",
 				"nemesv.copy-file-name",
+				"ms-azuretools.vscode-docker",
 				"mhutchie.git-graph",
 				"eamodio.gitlens",
 				"donjayamanne.githistory",
-				"ms-azuretools.vscode-docker",
+				"GitHub.vscode-pull-request-github",
+				"github.vscode-github-actions",
+				"formulahendry.code-runner",
 				"ms-dotnettools.csharp",
 				"ms-dotnettools.csdevkit",
 				"kreativ-software.csharpextensions",
@@ -42,14 +52,13 @@
 				"formulahendry.dotnet-test-explorer",
 				"ms-dotnettools.vscodeintellicode-csharp",
 				"jorgeserrano.vscode-csharp-snippets",
-				"fireside21.cshtml"
+				"fireside21.cshtml",
+				"jmrog.vscode-nuget-package-manager"
 			]
-        }
-    }
-
+		}
+	}
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [5000, 5001],
 	// "portsAttributes": {
@@ -57,13 +66,10 @@
 	//			"protocol": "https"
 	//		}
 	// }
-
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "dotnet restore",
-
 	// Configure tool-specific properties.
 	// "customizations": {},
-
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }

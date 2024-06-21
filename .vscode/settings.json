@@ -21,10 +21,14 @@
     "files.trimTrailingWhitespaceInRegexAndStrings": false,
     "git.autofetch": "all",
     "git.confirmSync": false,
+    "git.pruneOnFetch": true,
     "search.defaultViewMode": "tree",
+    "search.showLineNumbers": true,
+    "scm.defaultViewMode": "tree",
     "scm.diffDecorationsGutterWidth": 5,
     "scm.inputFontSize": 14,
-    "search.showLineNumbers": true,
     "terminal.integrated.smoothScrolling": true,
-    "workbench.editor.wrapTabs": true
+    "workbench.editor.wrapTabs": true,
+    "editor.cursorBlinking": "blink",
+    "workbench.view.alwaysShowHeaderActions": true
 }

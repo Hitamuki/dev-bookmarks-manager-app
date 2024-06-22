@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/dotnet
 {
-	"name": ".NET8.0",
+	"name": "Dev Container",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/dotnet:1-8.0",
 	"features": {
@@ -23,8 +23,12 @@
 			"version": "15"
 		}
 	},
+	"postCreateCommand": "chmod +x .devcontainer/post-create.sh && /bin/bash .devcontainer/post-create.sh",
 	"customizations": {
 		"vscode": {
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "fish"
+			},
 			"extensions": [
 				"MS-CEINTL.vscode-language-pack-ja",
 				"vscode-icons-team.vscode-icons",

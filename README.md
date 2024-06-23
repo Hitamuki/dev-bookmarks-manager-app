@@ -15,7 +15,7 @@
 - ゲスト
 - ブラウザのタブの様に一時的に表示・保存する機能(リーディングリスト)と恒久的に保存する機能（ブックマーク）
   - OneTabやArc
-- インポート
+- インポート/エクスポート
   - OneTab
   - Googleなどのブラウザのブックマーク
 - 優先順位
@@ -76,17 +76,25 @@
 
 ## 作業準備
 
-- Dockerを起動する
 - VSCodeでこのリポジトリを開く
+- Dockerを起動する
 - 開発用のコンテナを起動する
   - 拡張機能「Dev Containers」を有効にする
   - VSCodeの左下のアイコンをクリック→「コンテナーで再度開く」を選択
-  - (\*)「Dev Containers」の設定を変更した場合
-    - dockerのvolumeを削除する
-- PostgreSQLコンテナに接続
+- (\*)「Dev Containers」の設定を変更した場合
+  - ローカル環境(Windowsの場合はWSL)で、以下コマンドでスクリプトを実行
 
 ```bash
-  docker compose up -d
-  # psqlで操作する場合
-  docker exec -it bookmarks_manager_container psql -U admin -d bookmarks_manager
+chmod +x ./.scripts/cleanup_docker.sh
+./.scripts/cleanup_docker.sh
+```
+
+- PostgreSQLコンテナに接続
+  - 以下コマンドを実行
+
+```bash
+docker compose up -d
+# psqlで操作する場合
+docker exec -it bookmarks_manager_container psql -U admin -d bookmarks_manager
+# set PGPASSWORD password; psql -U admin -d bookmarks_manager
 ```

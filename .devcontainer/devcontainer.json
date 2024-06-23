@@ -4,6 +4,10 @@
 	"name": "Dev Container",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/dotnet:1-8.0",
+	"runArgs": [
+		"--name",
+		"bookmarks-manager-app-container"
+	],
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {
 			"moby": true,

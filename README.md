@@ -1,4 +1,4 @@
-# Bookmarks Manager
+# Bookmarks Manager Application
 
 ## 概要
 
@@ -13,11 +13,12 @@
 - 非表示、パスワード
 - ログイン
 - ゲスト
-- ブラウザのタブの様に一時的に表示・保存する機能(リーディングリスト)と恒久的に保存する機能（ブックマーク）
-  - OneTabやArc
+- 一時的に表示・保存する機能(ブラウザのタブ、リーディングリスト)と恒久的に保存する機能（ブックマーク）
+  - OneTab
+  - Arc
 - インポート/エクスポート
   - OneTab
-  - Googleなどのブラウザのブックマーク
+  - Google Chromeなどブラウザのブックマーク
 - 優先順位
 - タグ
 - サブスクリプション
@@ -56,21 +57,21 @@
 | 項目           | 詳細                           |
 | -------------- | ------------------------------ |
 | エディタ       | VSCode                         |
-| バージョン管理 | GitHub</br>Git                 |
-| DB             | Postgresql                     |
-| DBクライアント | DBeaver                        |
 | 言語           | C#                             |
 | フレームワーク | ASP.NET Core MVC               |
 | 単体テスト     | xUnit                          |
 | E2Eテスト      | Playwright                     |
 | ライブラリ     | Entity Framework Core</br>NLog |
+| DB             | Postgresql                     |
+| DBクライアント | DBeaver                        |
+| バージョン管理 | GitHub</br>Git                 |
 | CI/CD          | GitHubActions                  |
 | PaaS           | fly.io                         |
 | その他         | Docker                         |
 
 ## MacとWindowsの共同開発
 
-- Dockerで異なるOS間でも同じ環境を用意することが可能
+- Dockerにより、異なるOS間でも同じ環境を用意することが可能
 - VSCodeの拡張機能「Dev Containers」で、ローカル環境を汚さずに開発環境を用意できる
 - VSCodeの拡張機能「Live Share」で、リアルタイムの共同開発ができる
 
@@ -81,8 +82,8 @@
 - 開発用のコンテナを起動する
   - 拡張機能「Dev Containers」を有効にする
   - VSCodeの左下のアイコンをクリック→「コンテナーで再度開く」を選択
-- (\*)「Dev Containers」の設定を変更した場合
-  - ローカル環境(Windowsの場合はWSL)で、以下コマンドでスクリプトを実行
+  - (\*)「Dev Containers」の設定を変更した場合
+    - ローカル環境(Windowsの場合はWSL)で、以下コマンドでスクリプトを実行
 
 ```bash
 chmod +x ./.scripts/cleanup_docker.sh

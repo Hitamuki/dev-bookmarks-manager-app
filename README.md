@@ -83,7 +83,7 @@
   - 拡張機能「Dev Containers」を有効にする
   - VSCodeの左下のアイコンをクリック→「コンテナーで再度開く」を選択
   - (\*)「Dev Containers」の設定を変更した場合
-    - ローカル環境(Windowsの場合はWSL)で、以下コマンドでスクリプトを実行
+    - ローカル環境(Windowsの場合はWSL)で、以下コマンドでスクリプトを実行し、すべてのDockerリソースを削除する
 
 ```bash
 chmod +x ./.scripts/cleanup_docker.sh

@@ -1,6 +1,7 @@
 <Project>
   <PropertyGroup>
-      <EnableNETAnalyzers>true</EnableNETAnalyzers>
-      <AnalysisLevel>latest-Recommended</AnalysisLevel>
+    <!-- コード分析設定 -->
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>8.0-Recommended</AnalysisLevel>
   </PropertyGroup>
 </Project>

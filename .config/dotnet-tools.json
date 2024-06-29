@@ -8,6 +8,20 @@
         "dotnet-format"
       ],
       "rollForward": false
+    },
+    "roslynator.dotnet.cli": {
+      "version": "0.8.9",
+      "commands": [
+        "roslynator"
+      ],
+      "rollForward": false
+    },
+    "dotnet-reportgenerator-globaltool": {
+      "version": "5.3.7",
+      "commands": [
+        "reportgenerator"
+      ],
+      "rollForward": false
     }
   }
 }

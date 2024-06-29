@@ -1,36 +1,37 @@
 version: 0.2
 language: en
-
 # 無視するファイル
 ignorePaths:
-  - 'cspell.yml'
-  - '.devcontainer/**'
-  - '.vscode/**'
-  - 'docker/**'
-
+  - cspell.yml
+  - .config/**
+  - .devcontainer/**
+  - .git/**
+  - .github/**
+  - .vscode/**
+  - docker/**
+  - ./**.sln
+  - ./**.yml
+  - ./**.ruleset
+  - stylecop.json
 ignoreRegExpList: []
-
 # 正しいとみなされる単語
 words: []
-
 # 常に誤りとみなされる単語
-flagWords: []
-
+flagWords:
 # 常に無視する単語
-ignoreWords: []
-
+ignoreWords:
+  - HSTS
 # 辞書
-dictionaries: 
-- 'csharp'
-
+dictionaries:
+  - csharp
 languageSettings:
-  - languageId: 'csharp'
-    dictionaries: ['csharp']
-
+  - languageId: csharp
+    dictionaries:
+      - csharp
 # 辞書パッケージ
 dictionaryDefinitions:
     # 辞書ファイル名
-    - name: 'domain'
+  - name: domain
       # カスタム単語ファイルへのパス
-      path: './.cspell/domain.txt'
-      addWords: false
+    path: ./.cspell/domain.txt
+    addWords: false

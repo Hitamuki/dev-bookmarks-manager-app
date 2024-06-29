@@ -15,3 +15,6 @@ sudo cp ~/.aspnet/https/aspnetapp.crt /usr/local/share/ca-certificates/aspnetapp
 
 # システムの信頼された証明書を更新
 sudo update-ca-certificates
+
+# .NET ローカル ツールをインストール
+dotnet tool restore

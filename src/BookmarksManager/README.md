@@ -39,3 +39,16 @@ dotnet roslynator analyze
 # 修正
 dotnet roslynator fix
 ```
+
+## パフォーマンス計測
+
+- dotnet-countersでプロセスを監視する
+
+```bash
+# TODO: アプリをデバッグや実行する
+# ポート番号からプロセスを確認
+lsof -i :[ポート番号]
+# プロセスを監視
+dotnet dotnet-counters monitor -p [PID]
+```
+

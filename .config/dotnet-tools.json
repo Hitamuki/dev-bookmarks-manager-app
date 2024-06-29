@@ -1,27 +1,34 @@
 {
-  "version": 1,
-  "isRoot": true,
-  "tools": {
-    "dotnet-format": {
-      "version": "5.1.250801",
-      "commands": [
-        "dotnet-format"
-      ],
-      "rollForward": false
-    },
-    "roslynator.dotnet.cli": {
-      "version": "0.8.9",
-      "commands": [
-        "roslynator"
-      ],
-      "rollForward": false
-    },
-    "dotnet-reportgenerator-globaltool": {
-      "version": "5.3.7",
-      "commands": [
-        "reportgenerator"
-      ],
-      "rollForward": false
+    "version": 1,
+    "isRoot": true,
+    "tools": {
+        "dotnet-format": {
+            "version": "5.1.250801",
+            "commands": [
+                "dotnet-format"
+            ],
+            "rollForward": false
+        },
+        "roslynator.dotnet.cli": {
+            "version": "0.8.9",
+            "commands": [
+                "roslynator"
+            ],
+            "rollForward": false
+        },
+        "dotnet-counters": {
+            "version": "8.0.532401",
+            "commands": [
+                "dotnet-counters"
+            ],
+            "rollForward": false
+        },
+        "dotnet-reportgenerator-globaltool": {
+            "version": "5.3.7",
+            "commands": [
+                "reportgenerator"
+            ],
+            "rollForward": false
+        }
     }
-  }
 }

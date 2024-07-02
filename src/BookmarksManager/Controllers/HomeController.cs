@@ -13,6 +13,7 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    //テストコメント
     public IActionResult Index()
     {
         return View();
